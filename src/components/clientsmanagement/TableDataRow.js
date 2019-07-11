@@ -40,6 +40,8 @@ export default class TableDataRow extends Component {
                             <option value="5">Other</option>
                         </select> 
         </td>
+        <td className="td-algin"> {user.gender}</td>
+
          <td><button className="btn_cirdle_record" onClick={this.onClickEditUser}><i className="fa fa-microphone" /> </button></td>  
         <td className="td_record_lb td-algin">New Reading</td>
         <td>
