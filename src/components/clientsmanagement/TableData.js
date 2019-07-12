@@ -11,9 +11,10 @@ export default class TableData extends Component {
         <table className="table table-hover">
             <tr>
               <th scope="col" className="td-th-algin">Name</th>
-              <th scope="col" className="td-th-algin">Email</th>
+              <th scope="col" className="td-th-algin">Phone</th>
               <th scope="col" className="td-th-algin">VIBE Results</th>
               <th scope="col" className="td-th-algin">Sex </th>
+              <th scope="col" className="td-th-algin">Email </th>
 
             </tr>
           <tbody>
