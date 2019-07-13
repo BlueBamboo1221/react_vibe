@@ -34,9 +34,12 @@
   margin: 2px 2px;
   background-color: #e29393;
   width:250px;
-  border-radius: 34px 34px 34px 34px;
+  border-radius: 34px 34px 34px 34px; 
   padding: 13px;
+}
 
+.btn_new_client:hover{
+  background-color: #e2bd93;
 }
 
 .btn_row_view {
@@ -53,7 +56,9 @@
   padding: 7px;
 
 }
-
+.btn_row_view:hover{
+  background-color: #e29393;
+}
 .btn_cirdle_record {
   border: none;
   color: white;
@@ -69,7 +74,9 @@
   padding: 8px;
 
 }
-
+.btn_cirdle_record:hover{
+  background-color: #485c6e;
+}
 .td_record_lb {
   color: #e29393;
   vertical-align: middle;
