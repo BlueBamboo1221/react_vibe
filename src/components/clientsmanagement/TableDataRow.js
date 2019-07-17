@@ -48,11 +48,16 @@ export default class TableDataRow extends Component {
         <td>
         <button  className="btn_row_view "> View < i className="button-icon-view-space fa fa-long-arrow-right" /></button>
         </td>                  
-        {/* <td>
-          <button className="btn btn-info" onClick={this.onClickEditUser}><i className="fa fa-edit" /> Edit</button>
+        <td>
+          <button className="btn btn-info" onClick={this.onClickEditUser}><i className="fa fa-edit" /> Edit</button> 
+        </td>
+        <td>  
           <button className="btn btn-danger" onClick={this.onClickDeleteUser}><i className="fa fa-trash-o" /> Delete</button>
-        </td> */}
+        </td>
+      
       </tr>
+
+      
 
     )
   }
