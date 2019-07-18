@@ -5,6 +5,7 @@ export default class TableDataRow extends Component {
     super(props, context);
     this.onClickEditUser = this.onClickEditUser.bind(this);
     this.onClickDeleteUser = this.onClickDeleteUser.bind(this);
+    this.onClickAddUser = this.onClickAddUser.bind(this);
   }
   
   
@@ -13,6 +14,9 @@ export default class TableDataRow extends Component {
     if (role === 2) return 'Moderator'
     if (role === 3) return 'User'
 
+  }
+  onClickAddUser() {
+    this.props.addUser(this.props.user.id)
   }
   onClickEditUser() {
     this.props.editUser(this.props.user.id)
@@ -47,6 +51,9 @@ export default class TableDataRow extends Component {
         <td className="td_record_lb td-algin">New Reading</td>
         <td>
         <button  className="btn_row_view "> View < i className="button-icon-view-space fa fa-long-arrow-right" /></button>
+        </td>
+        <td>
+          <button className="btn btn-info" onClick={this.onClickAddUser}><i className="fa fa-edit" /> Add</button> 
         </td>                  
         <td>
           <button className="btn btn-info" onClick={this.onClickEditUser}><i className="fa fa-edit" /> Edit</button> 
