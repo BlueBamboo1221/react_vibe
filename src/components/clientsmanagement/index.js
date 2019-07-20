@@ -46,15 +46,32 @@ class Dashboard extends Component {
     }
      this.searchUsers    = this.searchUsers.bind(this);
      this.logout    = this.logout.bind(this);
-    // this.createNewUser  = this.createNewUser.bind(this);
-    // this.editUser       = this.editUser.bind(this);
-    // this.cancelEditUser = this.cancelEditUser.bind(this);
-    // this.updateEditUser = this.updateEditUser.bind(this);
-    // this.deleteUser     = this.deleteUser.bind(this)
+    this.createNewUser  = this.createNewUser.bind(this);
+    this.editUser       = this.editUser.bind(this);
+    this.cancelEditUser = this.cancelEditUser.bind(this);
+    this.updateEditUser = this.updateEditUser.bind(this);
+    this.deleteUser     = this.deleteUser.bind(this)
 
   }
 
+  createNewUser()
+  {
 
+  }
+  editUser()
+  {
+
+  }
+  cancelEditUser(){
+
+  }
+  updateEditUser(){
+
+  }
+  deleteUser()
+  {
+    
+  }
 
   componentWillMount() {
     // Check localStorage

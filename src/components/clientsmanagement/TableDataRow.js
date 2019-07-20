@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class TableDataRow extends Component {
   constructor(props, context) {
     super(props, context);
-    this.onClickEditUser = this.onClickEditUser.bind(this);
+    this.onClickAddUser = this.onClickAddUser.bind(this);
     this.onClickDeleteUser = this.onClickDeleteUser.bind(this);
     this.onClickAddUser = this.onClickAddUser.bind(this);
   }
@@ -16,7 +16,7 @@ export default class TableDataRow extends Component {
 
   }
   onClickAddUser() {
-    this.props.addUser(this.props.user.id)
+    this.props.createNewUser()
   }
   onClickEditUser() {
     this.props.editUser(this.props.user.id)
